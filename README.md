@@ -42,4 +42,5 @@ In this game, they are 2 teams of 2 players. At every handle, the team who posed
 ## Contributors
 
 DESEINE Clément
+
 THOMAS  Maxime
