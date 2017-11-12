@@ -1,31 +1,45 @@
-## Synopsis
+## cardGames
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+The cardGames is the first project in .net programming at Epitech. This project consists of create a games with multiples players.
 
-## Code Example
+This project is realized in C#.
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+## Details
 
-## Motivation
+In this project we created a server and a client that communicates with each other. 
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+We implemented a game like a battle but with more rules and specificity. To exemple, in this game a client play with a team mate to win the game.
 
-## Installation
+## The Game
 
-Provide code examples and explanations of how to get the project.
+In this game, they are 2 teams of 2 players. At every handle, the team who posed the best card win. Every players have 8 card in her hand and the game finish when all the card are played.
 
-## API Reference
+## Commands
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+* The start
+  
+    At the beginning, the client must choose a name for the game and after he must enter the URL of the server he wants to join.
 
-## Tests
+    When 4 players are connected, the game start and the teams are created
 
-Describe and show how to run the tests with code examples.
+* The Games
+
+    The game it's a **turn-based game**. The players play in the reverse order of the clock.
+
+    They see they see their hands at their turn and he **must** select card in this form:  **Value Color**
+    
+    To exemple:  * *King Pike* * or * *9 Heart* *
+
+    If they fails their commands, a message is print and he must re-select their card.
+
+* The End
+    
+    The game is finish when a team win all the handle.
+    
+    The players can also leave the game anytime if they enter **exit** in the terminal.
+
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+DESEINE Clément
+THOMAS  Maxime
