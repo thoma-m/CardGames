@@ -1,4 +1,4 @@
-## cardGames
+# CardGames
 
 The cardGames is the first project in .net programming at Epitech. This project consists of create a games with multiples players.
 
