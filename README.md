@@ -28,7 +28,7 @@ In this game, they are 2 teams of 2 players. At every handle, the team who posed
 
     They see they see their hands at their turn and he **must** select card in this form:  **Value Color**
     
-    To exemple:  *King Pike* or *9 Heart*
+    To exemple:  `*King Pike*` or `*9 Heart*`
 
     If they fails their commands, a message is print and he must re-select their card.
 
